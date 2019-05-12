@@ -161,7 +161,7 @@ body {
     overflow: visible;
     text-align:left;
     position:absolute;
-    top:80%;
+    top:20%;
     right:0;
     left:5%;
     font-family: sans-serif;
@@ -172,7 +172,7 @@ body {
     background: linear-gradient(90deg, #fff, #000, #fff);
     background-repeat: no-repeat;
     background-size: 80%;
-    animation: animate 30s linear infinite;
+    animation: animate 15s linear infinite;
     -webkit-background-clip: text;
     -webkit-text-fill-color: rgba(255, 255, 255, 0);
 
