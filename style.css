@@ -81,7 +81,7 @@ body {
     background: linear-gradient(90deg, #fff, #000, #fff);
     background-repeat: no-repeat;
     background-size: 80%;
-    animation: animate 9s linear infinite;
+    animation: animate 15s linear infinite;
     -webkit-background-clip: text;
     -webkit-text-fill-color: rgba(255, 255, 255, 0);
     top:60%;
@@ -107,7 +107,7 @@ body {
     background: linear-gradient(90deg, #fff, #000, #fff);
     background-repeat: no-repeat;
     background-size: 80%;
-    animation: animate 6s linear infinite;
+    animation: animate 15s linear infinite;
     -webkit-background-clip: text;
     -webkit-text-fill-color: rgba(255, 255, 255, 0);
     top:35%;
@@ -140,7 +140,39 @@ body {
     background: linear-gradient(90deg, #fff, #000, #fff);
     background-repeat: no-repeat;
     background-size: 80%;
-    animation: animate 10s linear infinite;
+    animation: animate 15s linear infinite;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: rgba(255, 255, 255, 0);
+
+}
+@keyframes animate {
+  0% {
+    background-position: -500%;
+  }
+  50%{
+    background-position: 60%;
+  }
+  100% {
+    background-position: 500%;
+  }
+}
+
+.text-box4{
+    overflow: visible;
+    text-align:left;
+    position:absolute;
+    top:80%;
+    right:0;
+    left:5%;
+    font-family: sans-serif;
+    text-transform: uppercase;
+    font-size: 1em;
+    letter-spacing: 4px;
+    overflow: hidden;
+    background: linear-gradient(90deg, #fff, #000, #fff);
+    background-repeat: no-repeat;
+    background-size: 80%;
+    animation: animate 30s linear infinite;
     -webkit-background-clip: text;
     -webkit-text-fill-color: rgba(255, 255, 255, 0);
 
@@ -150,11 +182,11 @@ body {
     background-position: -500%;
   }
   100% {
-    background-position: 300%;
+    background-position: 500%;
   }
 }
 
-.text-box4{
+.text-box5{
     overflow: visible;
     font-family: 'Lato', sans-serif;
     font-size: 40px;
@@ -165,7 +197,7 @@ body {
     right:0;
     left:40%;
 }
-.text-box5{
+.text-box6{
     overflow: visible;
     font-family: 'Lato', sans-serif;
     font-size: 40px;
