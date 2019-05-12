@@ -70,61 +70,6 @@ body {
     right:0;
     left:0;
 }
-.text-box1{
-    overflow: visible;
-    position: absolute;
-    font-family: sans-serif;
-    text-transform: uppercase;
-    font-size: 1em;
-    letter-spacing: 4px;
-    overflow: hidden;
-    background: linear-gradient(90deg, #fff, #000, #fff);
-    background-repeat: no-repeat;
-    background-size: 80%;
-    animation: animate 15s linear infinite;
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: rgba(255, 255, 255, 0);
-    top:60%;
-    right:0;
-    left:10%;
-}
-@keyframes animate {
-  0% {
-    background-position: -500%;
-  }
-  100% {
-    background-position: 500%;
-  }
-}
-.text-box2{
-    overflow: visible;
-    position: absolute;
-    font-family: sans-serif;
-    text-transform: uppercase;
-    font-size: 1em;
-    letter-spacing: 4px;
-    overflow: hidden;
-    background: linear-gradient(90deg, #fff, #000, #fff);
-    background-repeat: no-repeat;
-    background-size: 80%;
-    animation: animate 15s linear infinite;
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: rgba(255, 255, 255, 0);
-    top:35%;
-    right: 0; 
-    left: 30%
-}
-    
-}
-@keyframes animate {
-  0% {
-    background-position: -500%;
-  }
-  100% {
-    background-position: 500%;
-  }
-}
-
 .text-box3{
     overflow: visible;
     text-align:left;
@@ -140,17 +85,76 @@ body {
     background: linear-gradient(90deg, #fff, #000, #fff);
     background-repeat: no-repeat;
     background-size: 80%;
-    animation: animate 15s linear infinite;
+    animation: animate 30s linear -8.8s;
     -webkit-background-clip: text;
     -webkit-text-fill-color: rgba(255, 255, 255, 0);
 
 }
 @keyframes animate {
   0% {
-    background-position: -500%;
+    background-position: -1100%;
   }
   50%{
     background-position: 60%;
+  }
+  100% {
+    background-position: 500%;
+  }
+}
+
+.text-box2{
+    overflow: visible;
+    position: absolute;
+    font-family: sans-serif;
+    text-transform: uppercase;
+    font-size: 1em;
+    letter-spacing: 4px;
+    overflow: hidden;
+    background: linear-gradient(90deg, #fff, #000, #fff);
+    background-repeat: no-repeat;
+    background-size: 80%;
+    animation: animate 30s linear -6.5s;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: rgba(255, 255, 255, 0);
+    top:35%;
+    right: 0; 
+    left: 30%
+}
+    
+}
+@keyframes animate {
+  0% {
+    background-position: -1075%;
+  }
+  100% {
+    background-position: 500%;
+  }
+}
+
+.text-box1{
+    overflow: visible;
+    position: absolute;
+    font-family: sans-serif;
+    text-transform: uppercase;
+    font-size: 1em;
+    letter-spacing: 4px;
+    overflow: hidden;
+    background: linear-gradient(90deg, #fff, #000, #fff);
+    background-repeat: no-repeat;
+    background-size: 80%;
+    animation: animate 30s linear -3.1s;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: rgba(255, 255, 255, 0);
+    top:60%;
+    right:0;
+    left:10%;
+}
+@keyframes animate {
+  0% {
+    background-position: -5062.5%;
+  }
+  50%{
+    background-position:-1000%
   }
   100% {
     background-position: 500%;
@@ -172,18 +176,41 @@ body {
     background: linear-gradient(90deg, #fff, #000, #fff);
     background-repeat: no-repeat;
     background-size: 80%;
-    animation: animate 30s linear infinite;
+    animation: animate 30s linear 0s;
     -webkit-background-clip: text;
     -webkit-text-fill-color: rgba(255, 255, 255, 0);
 
 }
 @keyframes animate {
   0% {
-    background-position: -500%;
+    background-position: -1100%;
+  }
+  50%{
+    background-position: 60%;
   }
   100% {
     background-position: 500%;
   }
+}
+
+.text-box7{
+    overflow: visible;
+    text-align:left;
+    position:absolute;
+    top:95%;
+    right:0;
+    left:40%;
+    font-family: sans-serif;
+    text-transform: uppercase;
+    font-size: 1em;
+    letter-spacing: 4px;
+    overflow: hidden;
+    background: linear-gradient(90deg, #fff, #000, #fff);
+    background-repeat: no-repeat;
+    background-size: 80%;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: rgba(255, 255, 255, 0);
+
 }
 
 .text-box5{
@@ -209,7 +236,18 @@ body {
     left:45%;
 }
 
+.rotate-180{
+   border-radius: 8px;
+   -webkit-transform: rotate(90deg);
+        -ms-transform: rotate(90deg);
+            transform: rotate(90deg);
+            position: absolute;
+            top: 10%;
+            right: 0;
+            left:72.5%; 
+}
 
+/*
 #heart {
     position: absolute;
     width: 100px;
@@ -284,3 +322,12 @@ body {
     transform: scale( .75 );
   }
 }
+
+*/
+/*
+img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+*/
