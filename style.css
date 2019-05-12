@@ -172,7 +172,7 @@ body {
     background: linear-gradient(90deg, #fff, #000, #fff);
     background-repeat: no-repeat;
     background-size: 80%;
-    animation: animate 15s linear infinite;
+    animation: animate 30s linear infinite;
     -webkit-background-clip: text;
     -webkit-text-fill-color: rgba(255, 255, 255, 0);
 
