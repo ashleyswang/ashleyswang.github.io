@@ -12,6 +12,20 @@ h1{
     font-family: 'Raleway';
     font-size: 36px;
 }
+.subtitle{
+    font-family: 'Raleway';
+    font-weight: 200;
+    font-size: 24px;
+}
+/*
+.static {  
+    background-color: #fff2da; 
+    width:100%;
+    position: fixed; 
+    justify-content: center;  
+}
+*/
+
 .text{
     font-family: 'Roboto';
     font-size: 18px;
