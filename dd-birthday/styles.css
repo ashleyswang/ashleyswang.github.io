@@ -39,3 +39,12 @@ h1{
 .left{
     float:left;
 }
+
+.round-edge{
+   border-radius: 8px;
+   /*-webkit-transform: rotate(90deg);
+    -ms-transform: rotate(90deg);
+    transform: rotate(90deg);
+    top: 70%;
+    */
+}
