@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>nerd boi finally asks puffball out</title>
+
+    <!-- vanta.js libraries -->
+    <script src="three.r92.min.js"></script>
+    <script src="vanta.birds.min.js"></script>
+    <!-- <script type="text/javascript" src="slideshow.js"></script> -->
+    
+    <link rel="stylesheet" type="text/css" href="styles.css" />
+    <link rel="stylesheet" type="text/css" href="slideshow.css" />
+    <link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Raleway:regular, 100, 200"/>
+    <link rel="stylesheet" type="text/css" href='https://fonts.googleapis.com/css?family=Roboto:light'/>
+
+    <meta charset="UTF-8">
+    
+    <style>
+        body, html {
+            margin: 0;
+            padding: 0;
+            height: 100%;
+            width: 100%;
+            overflow: hidden;
+        }
+        .main {
+            margin: 0;
+            padding-right: 10%;
+            padding-left: 10%;
+            padding-top: 6%;
+        }
+        </style>
+
+</head>
+
+<body id="body">
+
+<!-- Slideshow container -->
+<div class="slideshow-container">
+
+  <!-- Full-width images with number and caption text -->
+  <div class="mySlides fade">
+    <div class="numbertext">1 / 3</div>
+    <img src="./media/idk.jpeg" style="width:100%">
+    <div class="text">Caption Text</div>
+  </div>
+
+  <div class="mySlides fade">
+    <div class="numbertext">2 / 3</div>
+    <img src="./media/IMG_0314.jpg" style="width: 100%">
+    <div class="text">Caption Two</div>
+  </div>
+
+  <div class="mySlides fade">
+    <div class="numbertext">3 / 3</div>
+    <img src="./media/facemaks.JPG" style="width:100%">
+    <div class="text">Caption Three</div>
+  </div>
+
+  <!-- Next and previous buttons -->
+  <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+  <a class="next" onclick="plusSlides(1)">&#10095;</a>
+</div>
+<br>
+
+<!-- The dots/circles -->
+<div style="text-align:center">
+  <span class="dot" onclick="currentSlide(1)"></span> 
+  <span class="dot" onclick="currentSlide(2)"></span> 
+  <span class="dot" onclick="currentSlide(3)"></span> 
+</div>
+
+<script>
+    var slideIndex = 1;
+showSlides(slideIndex);
+
+// Next/previous controls
+function plusSlides(n) {
+  showSlides(slideIndex += n);
+}
+
+// Thumbnail image controls
+function currentSlide(n) {
+  showSlides(slideIndex = n);
+}
+
+function showSlides(n) {
+  var i;
+  var slides = document.getElementsByClassName("mySlides");
+  var dots = document.getElementsByClassName("dot");
+  if (n > slides.length) {slideIndex = 1} 
+  if (n < 1) {slideIndex = slides.length}
+  for (i = 0; i < slides.length; i++) {
+      slides[i].style.display = "none"; 
+  }
+  for (i = 0; i < dots.length; i++) {
+      dots[i].className = dots[i].className.replace(" active", "");
+  }
+  slides[slideIndex-1].style.display = "block"; 
+  dots[slideIndex-1].className += " active";
+}
+
+</script>
+
+
+
+    <script>
+	VANTA.BIRDS({
+  		el: "#body",
+		backgroundColor: 0xfff2da, //0xffedc3,
+	  	color1: 0xf76262, //0xf54848,
+	  	color2: 0x989efa, //0xfff0,
+		wingSpan: 40.00,
+		speedLimit: 3.00,
+		separation: 60.00
+	})
+	</script>
+
+    
+
+</body>
+</html>
